@@ -4,6 +4,7 @@ Ruby binding to OpenSLP (Service Location Protocol) library.
 
 [![Gem Version](https://badge.fury.io/rb/slp.svg)](http://badge.fury.io/rb/slp)
 [![Build Status](https://travis-ci.org/ManageIQ/slp.svg)](https://travis-ci.org/ManageIQ/slp)
+[![Code Climate](http://img.shields.io/codeclimate/github/ManageIQ/slp.svg)](https://codeclimate.com/github/ManageIQ/slp)
 [![Dependency Status](https://gemnasium.com/ManageIQ/slp.svg)](https://gemnasium.com/ManageIQ/slp)
 
 ## Installation
