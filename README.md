@@ -1,8 +1,10 @@
-# Slp
+# SLP
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/slp`. To experiment with that code, run `bin/console` for an interactive prompt.
+Ruby binding to OpenSLP (Service Location Protocol) library.
 
-TODO: Delete this and the text above, and describe your gem
+[![Gem Version](https://badge.fury.io/rb/slp.svg)](http://badge.fury.io/rb/slp)
+[![Build Status](https://travis-ci.org/ManageIQ/slp.svg)](https://travis-ci.org/ManageIQ/slp)
+[![Dependency Status](https://gemnasium.com/ManageIQ/slp.svg)](https://gemnasium.com/ManageIQ/slp)
 
 ## Installation
 
@@ -22,7 +24,13 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+`SLP` supports the following instance methods.
+
+- open (on initialize)
+- close
+- find_services
+- find_attributes
+- parse_service_url
 
 ## Development
 
@@ -32,10 +40,8 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/slp.
-
+Bug reports and pull requests are welcome on GitHub at https://github.com/ManageIQ/slp.
 
 ## License
 
 The gem is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
-

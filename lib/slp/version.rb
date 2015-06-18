@@ -1,3 +1,3 @@
-module Slp
+class SLP
   VERSION = "0.1.0"
 end
